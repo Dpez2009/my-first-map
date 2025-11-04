@@ -96,8 +96,11 @@
         'type': 'circle',
         'source': 'my-places',
         'paint': {
-          'circle-radius': 6,
-          'circle-color': '#FF0000'
+            'circle-radius': 10,
+            'circle-stroke-width': 2,
+            'circle-color': '#0099ff',
+            'circle-emissive-strength': 1,
+            'circle-stroke-color': 'green'
         },
         'filter': ['==', '$type', 'Point']
       });
